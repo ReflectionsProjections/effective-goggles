@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1517C360CAA3D3A915DB0891 /* Pods_Effective_Goggles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E10D900B0554745E48CB8AC /* Pods_Effective_Goggles.framework */; };
+		54E737036A87E21AD011C7F9 /* Pods_Effective_GogglesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F5470241D2F769A80597D0 /* Pods_Effective_GogglesTests.framework */; };
+		9BB088D213581B53B9AE786A /* Pods_Effective_GogglesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DB2BE57D5783F8AF508F29 /* Pods_Effective_GogglesUITests.framework */; };
 		D382A4732149CE80000D287A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D382A4722149CE80000D287A /* AppDelegate.swift */; };
 		D382A4752149CE81000D287A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D382A4742149CE81000D287A /* ViewController.swift */; };
 		D382A4782149CE81000D287A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D382A4762149CE81000D287A /* Main.storyboard */; };
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E10D900B0554745E48CB8AC /* Pods_Effective_Goggles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Effective_Goggles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1597160B1CB23B871AE93470 /* Pods-Effective GogglesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Effective GogglesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Effective GogglesTests/Pods-Effective GogglesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		27F0A90BBC0A66F43D8F3868 /* Pods-Effective Goggles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Effective Goggles.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Effective Goggles/Pods-Effective Goggles.debug.xcconfig"; sourceTree = "<group>"; };
+		94598B0412CBF4695C0FDE7C /* Pods-Effective GogglesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Effective GogglesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Effective GogglesUITests/Pods-Effective GogglesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6DB2BE57D5783F8AF508F29 /* Pods_Effective_GogglesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Effective_GogglesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65566F10F9B9656DA50447E /* Pods-Effective Goggles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Effective Goggles.release.xcconfig"; path = "Pods/Target Support Files/Pods-Effective Goggles/Pods-Effective Goggles.release.xcconfig"; sourceTree = "<group>"; };
+		CA8036856E83EC2306B0A656 /* Pods-Effective GogglesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Effective GogglesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Effective GogglesTests/Pods-Effective GogglesTests.release.xcconfig"; sourceTree = "<group>"; };
 		D382A46F2149CE80000D287A /* Effective Goggles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Effective Goggles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D382A4722149CE80000D287A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D382A4742149CE81000D287A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		D382A48E2149CE82000D287A /* Effective GogglesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Effective GogglesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D382A4922149CE82000D287A /* Effective_GogglesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Effective_GogglesUITests.swift; sourceTree = "<group>"; };
 		D382A4942149CE82000D287A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBDD3607E208D59498683A49 /* Pods-Effective GogglesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Effective GogglesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Effective GogglesUITests/Pods-Effective GogglesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E0F5470241D2F769A80597D0 /* Pods_Effective_GogglesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Effective_GogglesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1517C360CAA3D3A915DB0891 /* Pods_Effective_Goggles.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54E737036A87E21AD011C7F9 /* Pods_Effective_GogglesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BB088D213581B53B9AE786A /* Pods_Effective_GogglesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8462B50A167E27C1160BCE67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E10D900B0554745E48CB8AC /* Pods_Effective_Goggles.framework */,
+				E0F5470241D2F769A80597D0 /* Pods_Effective_GogglesTests.framework */,
+				B6DB2BE57D5783F8AF508F29 /* Pods_Effective_GogglesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9076DB0DB2E749E90555549 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27F0A90BBC0A66F43D8F3868 /* Pods-Effective Goggles.debug.xcconfig */,
+				C65566F10F9B9656DA50447E /* Pods-Effective Goggles.release.xcconfig */,
+				1597160B1CB23B871AE93470 /* Pods-Effective GogglesTests.debug.xcconfig */,
+				CA8036856E83EC2306B0A656 /* Pods-Effective GogglesTests.release.xcconfig */,
+				94598B0412CBF4695C0FDE7C /* Pods-Effective GogglesUITests.debug.xcconfig */,
+				DBDD3607E208D59498683A49 /* Pods-Effective GogglesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D382A4662149CE80000D287A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				D382A4862149CE82000D287A /* Effective GogglesTests */,
 				D382A4912149CE82000D287A /* Effective GogglesUITests */,
 				D382A4702149CE80000D287A /* Products */,
+				C9076DB0DB2E749E90555549 /* Pods */,
+				8462B50A167E27C1160BCE67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D382A4972149CE82000D287A /* Build configuration list for PBXNativeTarget "Effective Goggles" */;
 			buildPhases = (
+				F634E4F5A0327B660318EB9F /* [CP] Check Pods Manifest.lock */,
 				D382A46B2149CE80000D287A /* Sources */,
 				D382A46C2149CE80000D287A /* Frameworks */,
 				D382A46D2149CE80000D287A /* Resources */,
+				E0FC02FF5A9A5A554F043C58 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D382A49A2149CE82000D287A /* Build configuration list for PBXNativeTarget "Effective GogglesTests" */;
 			buildPhases = (
+				F7AC1A680DCF43920499E845 /* [CP] Check Pods Manifest.lock */,
 				D382A47F2149CE82000D287A /* Sources */,
 				D382A4802149CE82000D287A /* Frameworks */,
 				D382A4812149CE82000D287A /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D382A49D2149CE82000D287A /* Build configuration list for PBXNativeTarget "Effective GogglesUITests" */;
 			buildPhases = (
+				305863D059F550220F1FCFD3 /* [CP] Check Pods Manifest.lock */,
 				D382A48A2149CE82000D287A /* Sources */,
 				D382A48B2149CE82000D287A /* Frameworks */,
 				D382A48C2149CE82000D287A /* Resources */,
@@ -250,6 +294,101 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		305863D059F550220F1FCFD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Effective GogglesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0FC02FF5A9A5A554F043C58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Effective Goggles/Pods-Effective Goggles-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/APIManager/APIManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APIManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Effective Goggles/Pods-Effective Goggles-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F634E4F5A0327B660318EB9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Effective Goggles-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7AC1A680DCF43920499E845 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Effective GogglesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D382A46B2149CE80000D287A /* Sources */ = {
@@ -430,6 +569,7 @@
 		};
 		D382A4982149CE82000D287A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F0A90BBC0A66F43D8F3868 /* Pods-Effective Goggles.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +588,7 @@
 		};
 		D382A4992149CE82000D287A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C65566F10F9B9656DA50447E /* Pods-Effective Goggles.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +607,7 @@
 		};
 		D382A49B2149CE82000D287A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1597160B1CB23B871AE93470 /* Pods-Effective GogglesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +629,7 @@
 		};
 		D382A49C2149CE82000D287A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA8036856E83EC2306B0A656 /* Pods-Effective GogglesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +651,7 @@
 		};
 		D382A49E2149CE82000D287A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94598B0412CBF4695C0FDE7C /* Pods-Effective GogglesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +672,7 @@
 		};
 		D382A49F2149CE82000D287A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBDD3607E208D59498683A49 /* Pods-Effective GogglesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

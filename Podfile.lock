@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (4.7.1)
+  - APIManager (0.2.0)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - APIManager (from `https://github.com/rauhul/api-manager.git`, commit `1a4210650dfcc4d15b559cd7dc63e892b7f5eb3e`)
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  APIManager:
+    :commit: 1a4210650dfcc4d15b559cd7dc63e892b7f5eb3e
+    :git: https://github.com/rauhul/api-manager.git
+
+CHECKOUT OPTIONS:
+  APIManager:
+    :commit: 1a4210650dfcc4d15b559cd7dc63e892b7f5eb3e
+    :git: https://github.com/rauhul/api-manager.git
+
+SPEC CHECKSUMS:
+  Alamofire: 68d7d521118d49c615a8d2214d87cdf525599d30
+  APIManager: 505550b6d705c44c58a30ac36f4de8277b5745e5
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 8d71b9f944c32e5d2e64e2fc23fc6f12f0ec68c2
+
+COCOAPODS: 1.5.3

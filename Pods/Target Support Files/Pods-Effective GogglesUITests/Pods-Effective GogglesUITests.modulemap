@@ -1,0 +1,6 @@
+framework module Pods_Effective_GogglesUITests {
+  umbrella header "Pods-Effective GogglesUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
