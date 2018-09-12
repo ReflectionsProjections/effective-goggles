@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D382A4732149CE80000D287A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D382A4722149CE80000D287A /* AppDelegate.swift */; };
+		D382A4752149CE81000D287A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D382A4742149CE81000D287A /* ViewController.swift */; };
+		D382A4782149CE81000D287A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D382A4762149CE81000D287A /* Main.storyboard */; };
+		D382A47A2149CE82000D287A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D382A4792149CE82000D287A /* Assets.xcassets */; };
+		D382A47D2149CE82000D287A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D382A47B2149CE82000D287A /* LaunchScreen.storyboard */; };
+		D382A4882149CE82000D287A /* Effective_GogglesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D382A4872149CE82000D287A /* Effective_GogglesTests.swift */; };
+		D382A4932149CE82000D287A /* Effective_GogglesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D382A4922149CE82000D287A /* Effective_GogglesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D382A4842149CE82000D287A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D382A4672149CE80000D287A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D382A46E2149CE80000D287A;
+			remoteInfo = "Effective Goggles";
+		};
+		D382A48F2149CE82000D287A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D382A4672149CE80000D287A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D382A46E2149CE80000D287A;
+			remoteInfo = "Effective Goggles";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D382A46F2149CE80000D287A /* Effective Goggles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Effective Goggles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D382A4722149CE80000D287A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D382A4742149CE81000D287A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D382A4772149CE81000D287A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D382A4792149CE82000D287A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D382A47C2149CE82000D287A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D382A47E2149CE82000D287A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D382A4832149CE82000D287A /* Effective GogglesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Effective GogglesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D382A4872149CE82000D287A /* Effective_GogglesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Effective_GogglesTests.swift; sourceTree = "<group>"; };
+		D382A4892149CE82000D287A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D382A48E2149CE82000D287A /* Effective GogglesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Effective GogglesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D382A4922149CE82000D287A /* Effective_GogglesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Effective_GogglesUITests.swift; sourceTree = "<group>"; };
+		D382A4942149CE82000D287A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D382A46C2149CE80000D287A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D382A4802149CE82000D287A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D382A48B2149CE82000D287A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D382A4662149CE80000D287A = {
+			isa = PBXGroup;
+			children = (
+				D382A4712149CE80000D287A /* Effective Goggles */,
+				D382A4862149CE82000D287A /* Effective GogglesTests */,
+				D382A4912149CE82000D287A /* Effective GogglesUITests */,
+				D382A4702149CE80000D287A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D382A4702149CE80000D287A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D382A46F2149CE80000D287A /* Effective Goggles.app */,
+				D382A4832149CE82000D287A /* Effective GogglesTests.xctest */,
+				D382A48E2149CE82000D287A /* Effective GogglesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D382A4712149CE80000D287A /* Effective Goggles */ = {
+			isa = PBXGroup;
+			children = (
+				D382A4722149CE80000D287A /* AppDelegate.swift */,
+				D382A4742149CE81000D287A /* ViewController.swift */,
+				D382A4762149CE81000D287A /* Main.storyboard */,
+				D382A4792149CE82000D287A /* Assets.xcassets */,
+				D382A47B2149CE82000D287A /* LaunchScreen.storyboard */,
+				D382A47E2149CE82000D287A /* Info.plist */,
+			);
+			path = "Effective Goggles";
+			sourceTree = "<group>";
+		};
+		D382A4862149CE82000D287A /* Effective GogglesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D382A4872149CE82000D287A /* Effective_GogglesTests.swift */,
+				D382A4892149CE82000D287A /* Info.plist */,
+			);
+			path = "Effective GogglesTests";
+			sourceTree = "<group>";
+		};
+		D382A4912149CE82000D287A /* Effective GogglesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D382A4922149CE82000D287A /* Effective_GogglesUITests.swift */,
+				D382A4942149CE82000D287A /* Info.plist */,
+			);
+			path = "Effective GogglesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D382A46E2149CE80000D287A /* Effective Goggles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D382A4972149CE82000D287A /* Build configuration list for PBXNativeTarget "Effective Goggles" */;
+			buildPhases = (
+				D382A46B2149CE80000D287A /* Sources */,
+				D382A46C2149CE80000D287A /* Frameworks */,
+				D382A46D2149CE80000D287A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Effective Goggles";
+			productName = "Effective Goggles";
+			productReference = D382A46F2149CE80000D287A /* Effective Goggles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D382A4822149CE82000D287A /* Effective GogglesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D382A49A2149CE82000D287A /* Build configuration list for PBXNativeTarget "Effective GogglesTests" */;
+			buildPhases = (
+				D382A47F2149CE82000D287A /* Sources */,
+				D382A4802149CE82000D287A /* Frameworks */,
+				D382A4812149CE82000D287A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D382A4852149CE82000D287A /* PBXTargetDependency */,
+			);
+			name = "Effective GogglesTests";
+			productName = "Effective GogglesTests";
+			productReference = D382A4832149CE82000D287A /* Effective GogglesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D382A48D2149CE82000D287A /* Effective GogglesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D382A49D2149CE82000D287A /* Build configuration list for PBXNativeTarget "Effective GogglesUITests" */;
+			buildPhases = (
+				D382A48A2149CE82000D287A /* Sources */,
+				D382A48B2149CE82000D287A /* Frameworks */,
+				D382A48C2149CE82000D287A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D382A4902149CE82000D287A /* PBXTargetDependency */,
+			);
+			name = "Effective GogglesUITests";
+			productName = "Effective GogglesUITests";
+			productReference = D382A48E2149CE82000D287A /* Effective GogglesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D382A4672149CE80000D287A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Yasha Mostofi";
+				TargetAttributes = {
+					D382A46E2149CE80000D287A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D382A4822149CE82000D287A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D382A46E2149CE80000D287A;
+					};
+					D382A48D2149CE82000D287A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D382A46E2149CE80000D287A;
+					};
+				};
+			};
+			buildConfigurationList = D382A46A2149CE80000D287A /* Build configuration list for PBXProject "Effective Goggles" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D382A4662149CE80000D287A;
+			productRefGroup = D382A4702149CE80000D287A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D382A46E2149CE80000D287A /* Effective Goggles */,
+				D382A4822149CE82000D287A /* Effective GogglesTests */,
+				D382A48D2149CE82000D287A /* Effective GogglesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D382A46D2149CE80000D287A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D382A47D2149CE82000D287A /* LaunchScreen.storyboard in Resources */,
+				D382A47A2149CE82000D287A /* Assets.xcassets in Resources */,
+				D382A4782149CE81000D287A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D382A4812149CE82000D287A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D382A48C2149CE82000D287A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D382A46B2149CE80000D287A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D382A4752149CE81000D287A /* ViewController.swift in Sources */,
+				D382A4732149CE80000D287A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D382A47F2149CE82000D287A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D382A4882149CE82000D287A /* Effective_GogglesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D382A48A2149CE82000D287A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D382A4932149CE82000D287A /* Effective_GogglesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D382A4852149CE82000D287A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D382A46E2149CE80000D287A /* Effective Goggles */;
+			targetProxy = D382A4842149CE82000D287A /* PBXContainerItemProxy */;
+		};
+		D382A4902149CE82000D287A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D382A46E2149CE80000D287A /* Effective Goggles */;
+			targetProxy = D382A48F2149CE82000D287A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D382A4762149CE81000D287A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D382A4772149CE81000D287A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D382A47B2149CE82000D287A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D382A47C2149CE82000D287A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D382A4952149CE82000D287A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D382A4962149CE82000D287A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D382A4982149CE82000D287A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K37M6EZV7J;
+				INFOPLIST_FILE = "Effective Goggles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yashamostofi.Effective-Goggles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D382A4992149CE82000D287A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K37M6EZV7J;
+				INFOPLIST_FILE = "Effective Goggles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yashamostofi.Effective-Goggles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D382A49B2149CE82000D287A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K37M6EZV7J;
+				INFOPLIST_FILE = "Effective GogglesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yashamostofi.Effective-GogglesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Effective Goggles.app/Effective Goggles";
+			};
+			name = Debug;
+		};
+		D382A49C2149CE82000D287A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K37M6EZV7J;
+				INFOPLIST_FILE = "Effective GogglesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yashamostofi.Effective-GogglesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Effective Goggles.app/Effective Goggles";
+			};
+			name = Release;
+		};
+		D382A49E2149CE82000D287A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K37M6EZV7J;
+				INFOPLIST_FILE = "Effective GogglesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yashamostofi.Effective-GogglesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Effective Goggles";
+			};
+			name = Debug;
+		};
+		D382A49F2149CE82000D287A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K37M6EZV7J;
+				INFOPLIST_FILE = "Effective GogglesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yashamostofi.Effective-GogglesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Effective Goggles";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D382A46A2149CE80000D287A /* Build configuration list for PBXProject "Effective Goggles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D382A4952149CE82000D287A /* Debug */,
+				D382A4962149CE82000D287A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D382A4972149CE82000D287A /* Build configuration list for PBXNativeTarget "Effective Goggles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D382A4982149CE82000D287A /* Debug */,
+				D382A4992149CE82000D287A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D382A49A2149CE82000D287A /* Build configuration list for PBXNativeTarget "Effective GogglesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D382A49B2149CE82000D287A /* Debug */,
+				D382A49C2149CE82000D287A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D382A49D2149CE82000D287A /* Build configuration list for PBXNativeTarget "Effective GogglesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D382A49E2149CE82000D287A /* Debug */,
+				D382A49F2149CE82000D287A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D382A4672149CE80000D287A /* Project object */;
+}
