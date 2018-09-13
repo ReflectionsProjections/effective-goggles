@@ -10,6 +10,10 @@
 		1517C360CAA3D3A915DB0891 /* Pods_Effective_Goggles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E10D900B0554745E48CB8AC /* Pods_Effective_Goggles.framework */; };
 		54E737036A87E21AD011C7F9 /* Pods_Effective_GogglesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F5470241D2F769A80597D0 /* Pods_Effective_GogglesTests.framework */; };
 		9BB088D213581B53B9AE786A /* Pods_Effective_GogglesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DB2BE57D5783F8AF508F29 /* Pods_Effective_GogglesUITests.framework */; };
+		D31A6C34214AC3590085FA42 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31A6C33214AC3590085FA42 /* BaseViewController.swift */; };
+		D31A6C36214AC3830085FA42 /* EventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31A6C35214AC3830085FA42 /* EventManager.swift */; };
+		D31A6C38214AC49C0085FA42 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31A6C37214AC49C0085FA42 /* ScannerViewController.swift */; };
+		D31A6C3A214AC6140085FA42 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31A6C39214AC6140085FA42 /* Secrets.swift */; };
 		D382A4732149CE80000D287A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D382A4722149CE80000D287A /* AppDelegate.swift */; };
 		D382A4752149CE81000D287A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D382A4742149CE81000D287A /* ViewController.swift */; };
 		D382A4782149CE81000D287A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D382A4762149CE81000D287A /* Main.storyboard */; };
@@ -44,6 +48,10 @@
 		B6DB2BE57D5783F8AF508F29 /* Pods_Effective_GogglesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Effective_GogglesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C65566F10F9B9656DA50447E /* Pods-Effective Goggles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Effective Goggles.release.xcconfig"; path = "Pods/Target Support Files/Pods-Effective Goggles/Pods-Effective Goggles.release.xcconfig"; sourceTree = "<group>"; };
 		CA8036856E83EC2306B0A656 /* Pods-Effective GogglesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Effective GogglesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Effective GogglesTests/Pods-Effective GogglesTests.release.xcconfig"; sourceTree = "<group>"; };
+		D31A6C33214AC3590085FA42 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		D31A6C35214AC3830085FA42 /* EventManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventManager.swift; sourceTree = "<group>"; };
+		D31A6C37214AC49C0085FA42 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		D31A6C39214AC6140085FA42 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		D382A46F2149CE80000D287A /* Effective Goggles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Effective Goggles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D382A4722149CE80000D287A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D382A4742149CE81000D287A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +151,10 @@
 				D382A4792149CE82000D287A /* Assets.xcassets */,
 				D382A47B2149CE82000D287A /* LaunchScreen.storyboard */,
 				D382A47E2149CE82000D287A /* Info.plist */,
+				D31A6C33214AC3590085FA42 /* BaseViewController.swift */,
+				D31A6C35214AC3830085FA42 /* EventManager.swift */,
+				D31A6C37214AC49C0085FA42 /* ScannerViewController.swift */,
+				D31A6C39214AC6140085FA42 /* Secrets.swift */,
 			);
 			path = "Effective Goggles";
 			sourceTree = "<group>";
@@ -396,7 +408,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D382A4752149CE81000D287A /* ViewController.swift in Sources */,
+				D31A6C3A214AC6140085FA42 /* Secrets.swift in Sources */,
 				D382A4732149CE80000D287A /* AppDelegate.swift in Sources */,
+				D31A6C38214AC49C0085FA42 /* ScannerViewController.swift in Sources */,
+				D31A6C36214AC3830085FA42 /* EventManager.swift in Sources */,
+				D31A6C34214AC3590085FA42 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
