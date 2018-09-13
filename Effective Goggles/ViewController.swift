@@ -32,10 +32,9 @@ class ViewController: BaseViewController {
                 let token = queryItems.first(where: { $0.name == "token" })?.value,
                 token.trimmingCharacters(in: .whitespacesAndNewlines) != "" {
                 print("Token: \(token)")
-                //
-                //                DispatchQueue.main.async {
-                //                    self?.populateUserData(loginMethod: .github, token: token, sender: loginSelectionViewController)
-                //                }
+                // DispatchQueue.main.async {
+                //  self?.populateUserData(loginMethod: .github, token: token, sender: loginSelectionViewController)
+                // }
             }
             
             if let error = error {
