@@ -12,10 +12,14 @@ import SafariServices
 class ViewController: BaseViewController {
     var loginSession: SFAuthenticationSession?
 
+    @IBAction func loginButtonAction(_ sender: Any) {
+        oauthLogin()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
+
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         EventManager.sharedinstance.getEvents()
