@@ -9,4 +9,4 @@ Things that don't work:
 - Logging in (currently hardcoded to use my token)
 
 
-Made by (Yasha Mostofi)[https://github.com/redsn0w422]
+Made by [Yasha Mostofi](https://github.com/redsn0w422)
